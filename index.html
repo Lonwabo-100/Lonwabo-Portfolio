@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Junior Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Loyd.dev</div>
+        
+        <div class="nav-links">
+            <a href="#" class="nav-link">HOME</a>
+            <a href="#about" class="nav-link active">ABOUT ME</a>
+        </div>
+        
+        <button id="theme-toggle" class="theme-btn">🌙 Dark Mode</button>
+    </nav>
+
+    <header class="hero">
+        <h1>Hi, I'm Lonwabo Nqamra, a <span class="highlight">Junior Software Developer</span>.</h1>
+        <a href="#projects" class="cta-btn">View My Work</a>
+        <div class="social-links">
+    <a href="https://github.com/Lonwabo-100" target="_blank" aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+    </a>
+    
+    <a href="https://linkedin.com/in/lonwabo-nqamra-96b2572a6" target="_blank" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+    
+    <a href="tel:+27625588724" aria-label="Phone Number">
+        <i class="fa-solid fa-phone"></i>
+    </a>
+</div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="about-grid">
+            <div class="profile-container">
+                <div class="profile-background"></div>
+                
+                <div class="image-cropper">
+                    <img src="images/graduation-photo.jpg" alt="Lonwabo Nqamra" class="profile-image">
+                </div>
+            </div>
+            
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p class="bio-text">As a Computer Engineering graduate, I bridge the gap between robust system architecture and intuitive design to build scalable, functional applications from the ground up. My development process is rooted in writing clean, efficient code that solves complex, real-world challenges.</p>
+                <p class="bio-text secondary">I am driven by a continuous commitment to expanding my technical expertise and delivering modern, high-performance digital products that provide exceptional user experiences.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="education">
+        <h2>Education</h2>
+        <div class="edu-card">
+            <h3>Diploma in Engineering Technology: Computer Engineering</h3>
+            <p class="institution">Cape Peninsula University of Technology (CPUT)</p>
+            <p class="edu-dates">2023 - 2025</p>
+        </div>
+    </section>
+
+    <section class="skills">
+        <h2>Tech Stack</h2>
+        <div class="skills-grid">
+            <div class="skill-card">Java</div>
+            <div class="skill-card">C/C++</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">HTML & CSS</div>
+        </div>
+    </section>
+        <section id="projects" class="projects-section">
+    <h2 class="section-title">Featured Projects</h2>
+
+    <div class="project-card">
+        <div class="project-content">
+            <h3 class="project-title">SEZ Investment & Performance Dashboard</h3>
+            <p class="project-description">
+                A simulated internal web application designed for a Special Economic Zone (SEZ) environment. It allows executive teams to track enterprise tenants, monitor Foreign Direct Investment (FDI), and visualize job creation metrics dynamically.
+            </p>
+            
+            <ul class="tech-stack">
+                <li>JavaScript (ES6+)</li>
+                <li>Chart.js</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+            </ul>
+
+            <div class="project-links">
+                <a href="https://Lonwabo-100.github.io/SEZ-Investment-Dashboard/" target="_blank" class="btn primary-btn">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                </a>
+                
+                <a href="https://github.com/Lonwabo-100/SEZ-Investment-Dashboard" target="_blank" class="btn secondary-btn">
+                    <i class="fa-brands fa-github"></i> Source Code
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-content">
+            <h3 class="project-title">
+                Automated Feedback Control System 
+                <span style="font-size: 0.8rem; background: var(--border-color); color: var(--text-color); padding: 4px 10px; border-radius: 12px; vertical-align: middle; margin-left: 10px; font-weight: normal;">Final Year Capstone</span>
+            </h3>
+            <p class="project-description">
+                Engineered a closed-loop hardware and software feedback system for my university final-year project. This system integrated physical sensors with control logic to monitor variables, maintain system stability, and automate physical processes based on real-time data inputs.
+            </p>
+            
+            <ul class="tech-stack">
+                <li>Microcontrollers</li>
+                <li>C++ / Embedded C</li>
+                <li>Sensor Integration</li>
+                <li>Control Loop Logic</li>
+                <li>MATLAB</li>
+            </ul>
+            
+            </div>
+    </div>
+</section>
+
+   <footer>
+        <p>Let's connect. <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nqamralonwabo14@gmail.com" target="_blank" class="email-link">Email Me</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
